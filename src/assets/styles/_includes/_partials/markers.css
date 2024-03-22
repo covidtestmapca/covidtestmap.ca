@@ -134,7 +134,7 @@
 }
 
 .inner-marker .location-information li.information::before {
-  background-image: url('/assets/images/ctm/information.svg');
+  background-image: url('/assets/images/vendor/iconoir/information.svg');
 }
 
 .inner-marker .location-information li.test::before {
@@ -142,19 +142,19 @@
 }
 
 .inner-marker .location-information li.expiry::before {
-  background-image: url('/assets/images/ctm/expiry.svg');
+  background-image: url('/assets/images/vendor/iconoir/expiry.svg');
 }
 
 .inner-marker .location-information li.phone::before {
-  background-image: url('/assets/images/ctm/phone.svg');
+  background-image: url('/assets/images/vendor/iconoir/phone.svg');
 }
 
 .inner-marker .location-information li.maps::before {
-  background-image: url('/assets/images/ctm/maps.svg');
+  background-image: url('/assets/images/vendor/iconoir/maps.svg');
 }
 
 .inner-marker .location-information li.location::before {
-  background-image: url('/assets/images/ctm/location.svg');
+  background-image: url('/assets/images/vendor/iconoir/location.svg');
 }
 
 .inner-marker hr {
