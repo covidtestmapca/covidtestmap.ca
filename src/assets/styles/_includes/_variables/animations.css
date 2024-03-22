@@ -1,0 +1,26 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * CSS Animations.
+ */
+
+ @keyframes scale-and-fadein {
+  0% {
+      transform: scale(0.2);
+      opacity: 0;
+  }
+
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.no-transitions *,
+.no-transitions *::after,
+.no-transitions *::before {
+  transition: none !important;
+}

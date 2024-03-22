@@ -1,0 +1,52 @@
+---
+layout: layout
+title: COVID Test Map • Canada
+description: Providers offering free COVID tests in Canada.
+---
+
+{# Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+<main class="test-map">
+  <div id="map-container" class="map-container"></div>
+  <div class="controls">
+    <div>
+      <h4>Availability & Expiry</h4>
+      <ul>
+        <li class="good"><span id="good-count"></span>Tests available | Expiration date over 60 days</li>
+        <li class="expiring"><span id="expiring-count"></span>Tests available | Expiration date under 60 days</li>
+        <li class="expired"><span id="expired-count"></span>Expired tests may be available</li>
+        <li class="no-tests hidden" id="no-tests-caption"><span id="no-tests-count"></span>Tests not available</li>
+      </ul>
+    </div>
+
+    <div>
+      <label class="toggle">
+        <input id="location-toggle" class="toggle-checkbox" type="checkbox">
+        <div class="toggle-switch"></div>
+        <span class="toggle-label">Include locations without tests</span>
+      </label>
+    </div>
+  </div>
+  <footer>
+    <div>
+      Want to help build the map? Fill the update
+      <a href="https://cryptpad.fr/form/#/2/form/view/nLC2xHUIC4SSSftiTgCqqNqYdBfg5A2VdaYhttj+lpU/">form</a>
+      or
+      <a href="mailto:contact@covidtestmap.ca">get in touch!</a>
+    </div>
+  </footer>
+</main>
+
+<script>
+  window.COVID_TEST_LOCATIONS = {{ allLocations() | safe }}
+</script>
+
+<script
+    src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.core.js"
+    crossorigin async
+    data-callback="initMapKit"
+    data-libraries="map,annotations"
+></script>
+
+<script defer src="/assets/scripts/index.js"></script>

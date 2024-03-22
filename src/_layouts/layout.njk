@@ -1,0 +1,49 @@
+{# Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca> #}
+{# Licensed under the terms of the GPL-3 license. #}
+
+<!DOCTYPE html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="index, nofollow">
+
+    <!-- OpenGraph/Meta/Facebook -->
+    {# <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://covidtestmap.ca/assets/images/ctm/">
+    <meta property="og:url" content="https://covidtestmap.ca{{ page.url }}">
+    <meta property="og:site_name" content="Covid Test Map"> #}
+
+    <!-- Twitter -->
+    {# <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://covidtestmap.ca/assets/images/ctm/"> #}
+
+    <!-- Title -->
+    <title>{{ title }}</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ site.baseUrl}}{{page.url}}" />
+
+    <!-- Assets -->
+    <link rel="icon" href="/assets/images/ctm/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/assets/images/ctm/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/images/ctm/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/manifest.webmanifest">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>

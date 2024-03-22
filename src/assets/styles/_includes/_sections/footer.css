@@ -1,0 +1,19 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+.test-map > footer {
+  color: var(--footer-text-color);
+  background: var(--footer-background-color);
+
+  padding: 1em;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.test-map > footer a:hover {
+  color: var(--text-hover-dark-color);
+}

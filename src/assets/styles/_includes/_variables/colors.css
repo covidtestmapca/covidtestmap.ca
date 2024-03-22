@@ -1,0 +1,43 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Colors & Blurs
+ * ************************************************************************** */
+
+
+:root {
+  --background-color: white;
+  --text-color: black;
+
+  --text-hover-light-color: #3d7be0;
+  --text-hover-dark-color: #3d7be0;
+
+  --marker-background-color: #ffffff;
+  --marker-border-color: rgba(0,0,0,.2);
+
+  --marker-header-text-color: #ffffff;
+  --marker-header-background-color: #000000;
+  --marker-header-shopper-background-color: #d62025;
+  --marker-header-rexall-background-color: #38a69a;
+  --marker-header-no-tests-background-color: #888888;
+
+  --marker-accessory-text-color: rgba(0, 0, 0, .2);
+
+  --control-overlay-border-color: rgba(0, 0, 0, .05);
+  --control-overlay-background-color: rgba(255, 255, 255, .75);
+  --control-overlay-background-blur: 30px;
+
+  --status-expired: #b32907;
+  --status-expiring: #c97d02;
+  --status-good: #319462;
+  --status-none: #888888;
+
+  --toggle-background-color: #cccccc;
+  --toggle-checked-color: #56c080;
+
+  --footer-background-color: black;
+  --footer-text-color: white;
+}

@@ -1,0 +1,4 @@
+Sitemap: https://covitestmap.ca/sitemap.xml
+
+User-agent: *
+Disallow:

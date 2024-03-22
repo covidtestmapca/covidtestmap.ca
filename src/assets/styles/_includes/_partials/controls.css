@@ -1,0 +1,116 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Controls & Caption
+ * ************************************************************************** */
+
+.controls {
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.controls > div {
+  padding: 1em;
+  backdrop-filter: blur(30px);
+  background-color: var(--control-overlay-background-color);
+
+  box-shadow: 0 0 0 .5px var(--control-overlay-border-color);
+
+  border-radius: .5em;
+  margin-bottom: 1em;
+}
+
+.controls > div:last-child {
+  margin-bottom: 0;
+}
+
+.controls li {
+  line-height: 1.4;
+}
+
+.controls li::before {
+  content: '';
+  display: inline-block;
+  height: .65em;
+  width: .65em;
+  border-radius: 50%;
+  margin-right: .5em;
+}
+
+.controls .expired::before {
+  background-color: var(--status-expired);
+}
+
+.controls .expiring::before {
+  background-color: var(--status-expiring);
+}
+
+.controls .good::before {
+  background-color: var(--status-good);
+}
+
+.controls .no-tests::before {
+  background-color: var(--status-none);
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle-switch {
+  display: inline-block;
+  background-color: var(--toggle-background-color);
+  border-radius: 16px;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+
+.toggle-switch:before, .toggle-switch:after {
+  content: '';
+}
+
+.toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+  background: var(--toggle-checked-color);
+}
+
+.toggle-checkbox:checked + .toggle-switch:before {
+  left: 30px;
+}
+
+.toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}

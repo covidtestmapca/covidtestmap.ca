@@ -1,0 +1,19 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+@import "_includes/_vendor/reset.css";
+
+@import "_includes/_variables/colors.css";
+@import "_includes/_variables/animations.css";
+
+@import "_includes/_partials/typography.css";
+@import "_includes/_partials/body.css";
+
+@import "_includes/_partials/markers.css";
+@import "_includes/_partials/controls.css";
+
+@import "_includes/_sections/404.css";
+@import "_includes/_sections/map.css";
+@import "_includes/_sections/footer.css";

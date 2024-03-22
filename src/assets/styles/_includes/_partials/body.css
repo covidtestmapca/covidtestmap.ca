@@ -1,0 +1,30 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/* ************************************************************************** *
+ * Html/Body configuration.
+ * ************************************************************************** */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
