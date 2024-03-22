@@ -40,6 +40,11 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Inject JWT
+        env:
+          MAPKIT_JWT: ${{ secrets.MAPKIT_JWT }}
+        run: |
+          echo "export function addJWT() { (<any>window).jwt = '${MAPKIT_JWT}'; }" > ./src/assets/scripts/_includes/.jwt.ts
       - name: Build with 11ty
         run: |
           ELEVENTY_ENV="production" npx @11ty/eleventy
