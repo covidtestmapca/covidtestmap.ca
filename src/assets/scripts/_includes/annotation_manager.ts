@@ -112,7 +112,7 @@ export class AnnotationManager {
 
   private makeCalloutHeader(location: Provider, hasTests: boolean): Element {
     const header = document.createElement('header');
-    header.classList.add(location.chain);
+    header.classList.add(location.type);
 
     if (!hasTests) {
       header.classList.add('no-test');

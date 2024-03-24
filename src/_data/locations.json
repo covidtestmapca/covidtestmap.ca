@@ -3,7 +3,7 @@
     {
         "name": "Queen & University",
         "location": "250 University Ave Unit #120,\nToronto, ON M5H 3E5",
-        "chain": "rexall",
+        "type": "rexall",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the cash.",
@@ -17,7 +17,7 @@
     {
         "name": "Mt Sinai",
         "location": "600 University Ave,\nToronto, ON M5G 1X5",
-        "chain": "rexall",
+        "type": "rexall",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the pharmacy.",
@@ -31,7 +31,7 @@
     {
         "name": "College & Spadina",
         "location": "474 Spadina Ave.,\nToronto, ON M5T 2G8",
-        "chain": "rexall",
+        "type": "rexall",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the cash, on top of the counter.",
@@ -45,7 +45,7 @@
     {
         "name": "Dundas & Spadina",
         "location": "285 Spadina Ave.,\nToronto, ON M5T 2E6",
-        "chain": "rexall",
+        "type": "rexall",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the pharmacy.",
@@ -59,7 +59,7 @@
     {
         "name": "Harbourfront Medical",
         "location": "Pier 15, Queens Quay East, unit 102,\nToronto, ON M5E 0C5",
-        "chain": "appletree",
+        "type": "appletree",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the pharmacy, 1 test per household limit enforced.",
@@ -73,7 +73,7 @@
     {
         "name": "Church & Front",
         "location": "63 Front St E,\nToronto, ON M5E 1B3",
-        "chain": "rexall",
+        "type": "rexall",
         "testType": "flowflex",
         "expiry": "2024-09-30T00:00:00-04:00",
         "instructions": "At the cash.",
@@ -87,7 +87,7 @@
     {
         "name": "The Well",
         "location": "486 Front St W lg 12,\nToronto, ON M5V 2M3",
-        "chain": "shoppers",
+        "type": "shoppers",
         "testType": "flowflex",
         "expiry": "2024-03-31T00:00:00-04:00",
         "instructions": "At the pharmacy.",
@@ -101,7 +101,7 @@
     {
         "name": "King & Spadina",
         "location": "500 King St W,\nToronto, ON M5V 1L9",
-        "chain": "shoppers",
+        "type": "shoppers",
         "testType": "flowflex",
         "expiry": "2024-03-31T00:00:00-04:00",
         "instructions": "At the pharmacy.",
@@ -115,7 +115,7 @@
     {
         "name": "Royal Bank Plaza",
         "location": "Royal Bank Plaza, 200 Bay St.,\nToronto, ON M5J 2J3",
-        "chain": "shoppers",
+        "type": "shoppers",
         "testType": "flowflex",
         "expiry": "2024-03-31T00:00:00-04:00",
         "instructions": "At the cash.",
@@ -129,7 +129,7 @@
     {
         "name": "Yonge & King",
         "location": "69 Yonge St,\nToronto, ON M5E 1K3",
-        "chain": "shoppers",
+        "type": "shoppers",
         "testType": "flowflex",
         "expiry": "2024-03-31T00:00:00-04:00",
         "instructions": "At the cash.",
@@ -143,7 +143,7 @@
     {
       "name": "Queen & Dovercourt",
       "location": "1093 Queen St W,\nToronto, ON M6J 1J1",
-      "chain": "rexall",
+      "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the cash.",
@@ -157,7 +157,7 @@
     {
       "name": "Yonge Eglinton Centre",
       "location": "2300 Yonge St,\nToronto, ON M4P 1E4",
-      "chain": "rexall",
+      "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the pharmacy.",
@@ -171,7 +171,7 @@
     {
       "name": "King & Tecumseh",
       "location": "761 King St W,\nToronto, ON M5V 1N4",
-      "chain": "shoppers",
+      "type": "shoppers",
       "testType": "flowflex",
       "expiry": "2024-03-31T00:00:00-04:00",
       "instructions": "At the cash.",
@@ -185,7 +185,7 @@
     {
       "name": "Queen Street West",
       "location": "1033 Queen St W A,\nToronto, ON M6J 0A6",
-      "chain": "shoppers",
+      "type": "shoppers",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the cash.",
@@ -199,7 +199,7 @@
     {
       "name": "Galleria Shopping Centre",
       "location": "1245 Dupont St,\nToronto, ON M6H 2A6",
-      "chain": "rexall",
+      "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the cash.",
@@ -213,7 +213,7 @@
     {
       "name": "Hazelton Lanes Shopping Centre",
       "location": "87 Avenue Rd,\nToronto, ON M5R 3R9",
-      "chain": "rexall",
+      "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the cash.",
@@ -227,7 +227,7 @@
     {
       "name": "Pharmacare Drug Mart",
       "location": "891 Broadview Ave Unit 1,\nToronto, ON M4K 2P9",
-      "chain": "independent",
+      "type": "independent",
       "testType": "btnx",
       "expiry": "2024-02-02T00:00:00-05:00",
       "instructions": "At the counter.",
@@ -241,7 +241,7 @@
     {
       "name": "Cloverdale Mall Toronto",
       "location": "250 The East Mall,\nEtobicoke, ON M9B 3Y8",
-      "chain": "rexall",
+      "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
       "instructions": "At the cash, stacked on the counter. Can ask for two boxes.",
@@ -258,7 +258,7 @@
     {
         "name": "Bay & College",
         "location": "777 Bay St. Unit C216,\nToronto, ON M5G 2C8",
-        "chain": "rexall",
+        "type": "rexall",
         "phone": "+14169775824",
         "longitude": 43.66046,
         "latitude": -79.38387,
@@ -269,7 +269,7 @@
     {
         "name": "Lucliff Place",
         "location": "700 Bay St,\nToronto, ON M5G 1Z6",
-        "chain": "shoppers",
+        "type": "shoppers",
         "phone": "+14169792424",
         "longitude": 43.657156,
         "latitude": -79.388649,
@@ -280,7 +280,7 @@
     {
         "name": "Queen & Beverley",
         "location": "260 Queen St W,\nToronto, ON M5V 1Z8",
-        "chain": "shoppers",
+        "type": "shoppers",
         "phone": "+14169793903",
         "longitude": 43.64984,
         "latitude": -79.39185,
@@ -291,7 +291,7 @@
     {
         "name": "King & Peter",
         "location": "388 King St W, Toronto,\nON M5V 1K2",
-        "chain": "shoppers",
+        "type": "shoppers",
         "phone": "+14165976550",
         "longitude": 43.646109,
         "latitude": -79.392498,
@@ -302,13 +302,24 @@
     {
         "name": "Don Mills & Lawrence Pharmacy",
         "location": "895 Lawrence Ave E,\nNorth York, ON M3C 3L2",
-        "chain": "independent",
+        "type": "independent",
         "phone": "+14164438860",
         "longitude": 43.735739,
         "latitude": -79.347397,
         "appleMaps": "https://maps.apple.com/?address=10-895%20Lawrence%20Ave%20E,%20North%20York%20ON%20M3C%203L2,%20Canada&auid=17689236965530536161&ll=43.735739,-79.347397&lsp=9902&q=Don%20Mills%20%26%20Lawrence%20Pharmacy",
         "googleMaps": "https://maps.app.goo.gl/1tYNYk26Z1Th15eLA",
         "lastUpdate": "2024-03-20T00:00:00-04:00"
+    },
+    {
+        "name": "Don Mills Branch",
+        "location": "888 Lawrence Ave E,\nToronto, ON M3C 1P6",
+        "type": "tpl",
+        "phone": "+14163955710",
+        "longitude": 43.736628,
+        "latitude": -79.347479,
+        "appleMaps": "https://maps.apple.com/?address=888%20Lawrence%20Ave%20E,%20Toronto%20ON%20M3C%201P6,%20Canada&auid=5503315607566536777&ll=43.736628,-79.347479&lsp=9902&q=Public%20Library",
+        "googleMaps": "https://maps.app.goo.gl/AZfB6T8sJZFrpkSW6",
+        "lastUpdate": "2024-03-21T00:00:00-04:00"
     }
   ]
 }

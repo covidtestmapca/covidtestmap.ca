@@ -36,6 +36,10 @@
   background-color: var(--marker-header-rexall-background-color);
 }
 
+.inner-marker > header.tpl {
+  background-color: var(--marker-tpl-background-color);
+}
+
 .inner-marker > header.independent {
   background-color: var(--marker-header-background-color);
 }
@@ -57,6 +61,12 @@
 
 .inner-marker > header.rexall::before {
   content: url('/assets/images/vendor/logo-rexall.svg');
+  position: relative;
+  top: 3px;
+}
+
+.inner-marker > header.tpl::before {
+  content: url('/assets/images/vendor/logo-tpl.svg');
   position: relative;
   top: 3px;
 }
