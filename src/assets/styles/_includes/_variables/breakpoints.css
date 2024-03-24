@@ -1,0 +1,14 @@
+/*
+ * Copyright © 2024 CovidTestMap.ca <contact@covidtestmap.ca>
+ * Licensed under the terms of the GPL-3 license.
+ */
+
+/*
+ * A list of breakpoints.
+ *
+ * NOTE: They are expected to be processed through PostCSS, since CSS
+ *       media queries don't support variables.
+ */
+
+ @custom-media --xsmall-viewport (width <= 500px);
+ @custom-media --large-viewport (width > 1000px);

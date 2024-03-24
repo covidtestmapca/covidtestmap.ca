@@ -13,6 +13,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  overscroll-behavior: none;
 }
 
 html, body {
@@ -21,8 +22,8 @@ html, body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
 }
 
 .hidden {

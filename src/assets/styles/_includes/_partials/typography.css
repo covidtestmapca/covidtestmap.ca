@@ -29,5 +29,8 @@ h1 {
 h4 {
   font-weight: bold;
   text-align: center;
-  margin-bottom: .5em;
+}
+
+em {
+  font-weight: bold;
 }

@@ -10,24 +10,48 @@ description: Explore a map showcasing various providers across Canada offering f
 <main class="test-map">
   <div id="map-container" class="map-container"></div>
   <div class="controls">
-    <div>
-      <h4>Availability & Expiry</h4>
-      <ul>
-        <li class="good"><span id="good-count"></span>Tests available | Expiration date over 60 days</li>
-        <li class="expiring"><span id="expiring-count"></span>Tests available | Expiration date under 60 days</li>
-        <li class="expired"><span id="expired-count"></span>Expired tests may be available</li>
-        <li class="no-tests hidden" id="no-tests-caption"><span id="no-tests-count"></span>Tests not available</li>
-      </ul>
-    </div>
+    <button type="button" id="question-button" class="question-toggle">
+      <span></span>
+    </button>
+    <div id="question-popover" class="popover control-hidden">
+      <div>
+        <header>
+          <h4>Availability & Expiry</h4>
+        </header>
+        <ul class="control-body">
+          <li class="good">
+            <p>
+              <em>Tests available</em><br>Expiration date over 60 days
+            </p>
+          </li>
+          <li class="expiring">
+            <p>
+              <em>Tests available</em><br>Expiration date under 60 days
+            </p>
+          </li>
+          <li class="expired">
+            <p>
+              <em>Expired tests may be available</em>
+            </p>
+          </li>
+          <li class="no-tests hidden" id="no-tests-caption">
+            <p>
+              <em>No tests available</em>
+            </p>
+          </li>
+        </ul>
+      </div>
 
-    <div>
-      <label class="toggle">
-        <input id="location-toggle" class="toggle-checkbox" type="checkbox">
-        <div class="toggle-switch"></div>
-        <span class="toggle-label">Include locations without tests</span>
-      </label>
+      <div class="control-body">
+        <label class="toggle">
+          <input id="location-toggle" class="toggle-checkbox" type="checkbox">
+          <div class="toggle-switch"></div>
+          <span class="toggle-label">Include locations without tests</span>
+        </label>
+      </div>
     </div>
   </div>
+
   <footer>
     <div>
       Want to help build the map? Fill the update

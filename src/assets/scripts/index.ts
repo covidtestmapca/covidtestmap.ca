@@ -103,6 +103,7 @@ main();
 
 document.onreadystatechange = function () {
   const testCaption = document.getElementById('no-tests-caption');
+  const questionPopover = document.getElementById('question-popover');
 
   if (document.readyState === 'complete') {
     const locationToggle = document.getElementById('location-toggle') as HTMLInputElement | null;
@@ -123,6 +124,30 @@ document.onreadystatechange = function () {
           annotationManager.hideAnnotationsWithoutTests();
         }
       });
+    }
+
+    const questionToggle = document.getElementById('question-button') as HTMLInputElement | null;
+
+    if (questionToggle) {
+      questionToggle.addEventListener('click', function (event: Event) {
+        const element = event.target as HTMLInputElement | null;
+
+        if (!element || !questionPopover) {
+          return;
+        }
+
+        if (questionPopover.classList.contains('control-hidden')) {
+          questionPopover.classList.remove('control-hidden');
+        } else {
+          questionPopover.classList.add('control-hidden');
+        }
+      });
+    }
+
+    if (window.matchMedia('(min-width: 1000px)').matches) {
+      if (questionPopover) {
+        questionPopover.classList.remove('control-hidden');
+      }
     }
   }
 };
