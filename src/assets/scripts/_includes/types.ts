@@ -29,6 +29,8 @@ export namespace TestType {
     switch (type) {
       case TestType.Flowflex:
         return 'Flowflex';
+      case TestType.BTNX:
+        return 'BTNX';
       default:
         return 'Unknown';
     }

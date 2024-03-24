@@ -37,7 +37,7 @@ const setupMapKitJs = async () => {
 const setupMap = (): mapkit.Map => {
   const toronto = new mapkit.CoordinateRegion(
     new mapkit.Coordinate(43.675, -79.38313),
-    new mapkit.CoordinateSpan(0.1, 0.1)
+    new mapkit.CoordinateSpan(0.15, 0.15)
   );
 
   // Create a map in the element whose ID is "map-container"

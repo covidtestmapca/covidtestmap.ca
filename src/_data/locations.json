@@ -223,6 +223,34 @@
       "appleMaps": "https://maps.apple.com/?address=87%20Avenue%20Rd,%20Toronto%20ON%20M5R%203R9,%20Canada&auid=6991359367587540619&ll=43.671131,-79.394728&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/356bhqiUynBEj1iy9",
       "lastUpdate": "2024-03-18T00:00:00-04:00"
+    },
+    {
+      "name": "Pharmacare Drug Mart",
+      "location": "891 Broadview Ave Unit 1,\nToronto, ON M4K 2P9",
+      "chain": "independent",
+      "testType": "btnx",
+      "expiry": "2024-02-02T00:00:00-05:00",
+      "instructions": "At the counter.",
+      "phone": "+14164241242",
+      "longitude": 43.680718,
+      "latitude": -79.357617,
+      "appleMaps": "https://maps.apple.com/?address=1-891%20Broadview%20Ave,%20Toronto%20ON%20M4K%202P9,%20Canada&auid=14367356564042729478&ll=43.680718,-79.357617&lsp=9902&q=Pharmacare%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/gWAWZgoxXr84Hxew9",
+      "lastUpdate": "2024-03-22T00:00:00-04:00"
+    },
+    {
+      "name": "Cloverdale Mall Toronto",
+      "location": "250 The East Mall,\nEtobicoke, ON M9B 3Y8",
+      "chain": "rexall",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash, stacked on the counter. Can ask for two boxes.",
+      "phone": "+14162393512",
+      "longitude": 43.631987,
+      "latitude": -79.555207,
+      "appleMaps": "https://maps.apple.com/?address=250%20The%20East%20Mall,%20Etobicoke%20ON%20M9B%203Y8,%20Canada&auid=18138658338211867379&ll=43.631987,-79.555207&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/ckJnQQVbkBgp7YcW7",
+      "lastUpdate": "2024-03-23T00:00:00-04:00"
     }
   ],
 
@@ -262,7 +290,7 @@
     },
     {
         "name": "King & Peter",
-        "location": "388 King St W, Toronto,\nON M5V 1K2, Canada",
+        "location": "388 King St W, Toronto,\nON M5V 1K2",
         "chain": "shoppers",
         "phone": "+14165976550",
         "longitude": 43.646109,
@@ -270,6 +298,17 @@
         "appleMaps": "https://maps.apple.com/?address=388%20King%20Street%20West,%20Toronto%20ON%20M5V%201K2,%20Canada&auid=15315177053278141597&ll=43.646184,-79.392614&lsp=9902&q=Shoppers%20Drug%20Mart",
         "googleMaps": "https://maps.app.goo.gl/T5fCQE3g5ogTPaKG7",
         "lastUpdate": "2024-03-10T00:00:00-04:00"
+    },
+    {
+        "name": "Don Mills & Lawrence Pharmacy",
+        "location": "895 Lawrence Ave E,\nNorth York, ON M3C 3L2",
+        "chain": "independent",
+        "phone": "+14164438860",
+        "longitude": 43.735739,
+        "latitude": -79.347397,
+        "appleMaps": "https://maps.apple.com/?address=10-895%20Lawrence%20Ave%20E,%20North%20York%20ON%20M3C%203L2,%20Canada&auid=17689236965530536161&ll=43.735739,-79.347397&lsp=9902&q=Don%20Mills%20%26%20Lawrence%20Pharmacy",
+        "googleMaps": "https://maps.app.goo.gl/1tYNYk26Z1Th15eLA",
+        "lastUpdate": "2024-03-20T00:00:00-04:00"
     }
   ]
 }
