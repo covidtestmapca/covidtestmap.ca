@@ -251,6 +251,34 @@
       "appleMaps": "https://maps.apple.com/?address=250%20The%20East%20Mall,%20Etobicoke%20ON%20M9B%203Y8,%20Canada&auid=18138658338211867379&ll=43.631987,-79.555207&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/ckJnQQVbkBgp7YcW7",
       "lastUpdate": "2024-03-23T00:00:00-04:00"
+    },
+    {
+      "name": "Dundas & Gladstone",
+      "location": "1421 Dundas St W,\nToronto, ON M6J 1Y4",
+      "type": "rexall",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14165339644",
+      "longitude": 43.649411,
+      "latitude": -79.429299,
+      "appleMaps": "https://maps.apple.com/?address=1421%20Dundas%20St%20W,%20Toronto%20ON%20M6J%201Y4,%20Canada&auid=17202317961219671038&ll=43.649411,-79.429299&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/KMYEVzSCgQR67Kbe7",
+      "lastUpdate": "2024-03-21T00:00:00-04:00"
+    },
+    {
+      "name": "Rocco's NOFRILLS",
+      "location": "200 Front St E,\nToronto, ON M5A 4T9",
+      "type": "no-frills",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the pharmacy.",
+      "phone": "+18669876453",
+      "longitude": 43.651205,
+      "latitude": -79.366511,
+      "appleMaps": "https://maps.apple.com/?address=200%20Front%20St%20E,%20Toronto%20ON%20M5A%204T9,%20Canada&auid=7204213048954644261&ll=43.651205,-79.366511&lsp=9902&q=No%20Frills",
+      "googleMaps": "https://maps.app.goo.gl/aXnpFsaQy2mxSKL1A",
+      "lastUpdate": "2024-03-21T00:00:00-04:00"
     }
   ],
 

@@ -28,12 +28,30 @@
   background-color: var(--marker-header-background-color);
 }
 
+.inner-marker > header h2 {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle;
+  margin-left: .5em;
+}
+
 .inner-marker > header.shoppers {
   background-color: var(--marker-header-shopper-background-color);
 }
 
 .inner-marker > header.rexall {
   background-color: var(--marker-header-rexall-background-color);
+}
+
+.inner-marker > header.no-frills {
+  background-color: var(--marker-header-no-frills-background-color);
+}
+
+.inner-marker > header.no-frills h2 {
+  background-color: var(--marker-header-no-frills-background-color);
+  color: var(--text-color);
 }
 
 .inner-marker > header.tpl {
@@ -71,13 +89,10 @@
   top: 3px;
 }
 
-.inner-marker > header h2 {
-  display: inline-block;
-  color: white;
-  font-weight: bold;
-  font-size: 1.1em;
-  vertical-align: middle;
-  margin-left: .5em;
+.inner-marker > header.no-frills::before {
+  content: url('/assets/images/vendor/logo-no-frills.svg');
+  position: relative;
+  top: 3px;
 }
 
 .inner-marker .location-information {
