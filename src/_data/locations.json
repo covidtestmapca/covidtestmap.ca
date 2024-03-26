@@ -279,6 +279,20 @@
       "appleMaps": "https://maps.apple.com/?address=200%20Front%20St%20E,%20Toronto%20ON%20M5A%204T9,%20Canada&auid=7204213048954644261&ll=43.651205,-79.366511&lsp=9902&q=No%20Frills",
       "googleMaps": "https://maps.app.goo.gl/aXnpFsaQy2mxSKL1A",
       "lastUpdate": "2024-03-21T00:00:00-04:00"
+    },
+    {
+      "name": "First Canadian Place",
+      "location": "1 First Canadian Place Unit #CN1038,\nToronto, ON M5X 1C8",
+      "type": "rexall",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14163626480",
+      "longitude": 43.651205,
+      "latitude": -79.366511,
+      "appleMaps": "https://maps.apple.com/?address=100%20King%20St%20W,%20Toronto%20ON%20M5X%201A9,%20Canada&auid=14382520838702575626&ll=43.648966,-79.380602&lsp=9902&q=First%20Canadian%20Place",
+      "googleMaps": "https://maps.app.goo.gl/3AXf3LPRt1UUiPyi9",
+      "lastUpdate": "2024-03-25T00:00:00-04:00"
     }
   ],
 
