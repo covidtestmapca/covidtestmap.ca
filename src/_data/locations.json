@@ -173,7 +173,7 @@
       "location": "761 King St W,\nToronto, ON M5V 1N4",
       "type": "shoppers",
       "testType": "flowflex",
-      "expiry": "2024-03-31T00:00:00-04:00",
+      "expiry": "2024-03-30T00:00:00-04:00",
       "instructions": "At the cash.",
       "phone": "+14163060311",
       "longitude": 43.643133,
@@ -293,6 +293,20 @@
       "appleMaps": "https://maps.apple.com/?address=100%20King%20St%20W,%20Toronto%20ON%20M5X%201A9,%20Canada&auid=14382520838702575626&ll=43.648966,-79.380602&lsp=9902&q=First%20Canadian%20Place",
       "googleMaps": "https://maps.app.goo.gl/3AXf3LPRt1UUiPyi9",
       "lastUpdate": "2024-03-25T00:00:00-04:00"
+    },
+    {
+      "name": "Agincourt Mall (Scarborough)",
+      "location": "2330 Kennedy Rd,\nToronto, ON M1T 3H1",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-03-30T00:00:00-04:00",
+      "instructions": "At the cash, ask if they have COVID tests.",
+      "phone": "+14162993532",
+      "longitude": 43.783882,
+      "latitude": -79.289576,
+      "appleMaps": "https://maps.apple.com/?address=2330%20Kennedy%20Rd,%20Scarborough%20ON%20M1T%200A2,%20Canada&auid=5004843486167146758&ll=43.783882,-79.289576&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/yyRrZKAn1Gjcbbah7",
+      "lastUpdate": "2024-03-28T00:00:00-04:00"
     }
   ],
 

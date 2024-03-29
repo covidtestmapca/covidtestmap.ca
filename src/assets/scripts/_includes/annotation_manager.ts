@@ -335,7 +335,7 @@ export class AnnotationManager {
       const annotation = new mapkit.MarkerAnnotation(coordinates, {
         callout: callout,
         selected: false,
-        color: '#AAAAAA',
+        color: '#888888',
         calloutOffset: new DOMPoint(0, 10)
       });
 
