@@ -84,6 +84,11 @@ export class AnnotationManager {
 
     innerMarker.appendChild(this.makeCalloutHeader(provider, hasTests));
 
+    if (provider.outOfStock !== undefined && provider.outOfStock === true) {
+      innerMarker.appendChild(this.makeCalloutNoStockSection());
+      innerMarker.append(document.createElement('hr'));
+    }
+
     // Section I
     if (hasTests) {
       const testProvider = provider as TestProvider;
@@ -170,6 +175,20 @@ export class AnnotationManager {
     const p = document.createElement('p');
     p.classList.add('no-test');
     p.textContent = 'This location does not offer free COVID tests.';
+
+    section.append(p);
+
+    return section;
+  }
+
+  private makeCalloutNoStockSection(): Element {
+    const section = document.createElement('section');
+    section.classList.add('location-information');
+    section.classList.add('out-of-stock');
+
+    const p = document.createElement('p');
+    p.classList.add('no-test');
+    p.textContent = '⚠️ Tests are temporarily out of stock at this location.';
 
     section.append(p);
 

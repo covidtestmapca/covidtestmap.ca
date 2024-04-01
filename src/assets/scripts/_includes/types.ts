@@ -3,12 +3,12 @@
 
 /* eslint @typescript-eslint/no-namespace: 0 */
 
-export namespace Chain {
-  export function getColor(chain: Chain) {
+export namespace LocationType {
+  export function getColor(chain: LocationType) {
     switch (chain) {
-      case Chain.Rexall:
+      case LocationType.Rexall:
         return '#38A69A';
-      case Chain.Shoppers:
+      case LocationType.Shoppers:
         return '#D62025';
       default:
         return '#000000';
@@ -16,7 +16,7 @@ export namespace Chain {
   }
 }
 
-export enum Chain {
+export enum LocationType {
   Rexall = 'rexall',
   Shoppers = 'shoppers',
   IDA = 'ida',
@@ -75,13 +75,14 @@ export enum Expiry {
 export interface Provider {
   name: string;
   location: string;
-  chain: Chain;
+  type: LocationType;
   phone: string;
   longitude: number;
   latitude: number;
   appleMaps: string;
   googleMaps: string;
   lastUpdate: string;
+  outOfStock?: boolean;
 }
 
 export interface TestProvider extends Provider {

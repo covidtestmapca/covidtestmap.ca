@@ -222,7 +222,8 @@
       "latitude": -79.394728,
       "appleMaps": "https://maps.apple.com/?address=87%20Avenue%20Rd,%20Toronto%20ON%20M5R%203R9,%20Canada&auid=6991359367587540619&ll=43.671131,-79.394728&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/356bhqiUynBEj1iy9",
-      "lastUpdate": "2024-03-18T00:00:00-04:00"
+      "lastUpdate": "2024-03-29T00:00:00-04:00",
+      "outOfStock": true
     },
     {
       "name": "Pharmacare Drug Mart",
