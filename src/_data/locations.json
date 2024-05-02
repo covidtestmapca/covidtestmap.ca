@@ -296,18 +296,18 @@
       "lastUpdate": "2024-03-28T00:00:00-04:00"
     },
     {
-      "name": "Agincourt Mall (Scarborough)",
-      "location": "2330 Kennedy Rd,\nToronto, ON M1T 3H1",
+      "name": "Humbertown Shopping Centre (Etobicoke)",
+      "location": "270 The Kingsway,\nEtobicoke, ON M9A 3T7",
       "type": "shoppers",
       "testType": "flowflex",
-      "expiry": "2024-03-30T00:00:00-04:00",
-      "instructions": "At the cash, ask if they have COVID tests.",
-      "phone": "+14162993532",
-      "longitude": 43.783882,
-      "latitude": -79.289576,
-      "appleMaps": "https://maps.apple.com/?address=2330%20Kennedy%20Rd,%20Scarborough%20ON%20M1T%200A2,%20Canada&auid=5004843486167146758&ll=43.783882,-79.289576&lsp=9902&q=Shoppers%20Drug%20Mart",
-      "googleMaps": "https://maps.app.goo.gl/yyRrZKAn1Gjcbbah7",
-      "lastUpdate": "2024-03-28T00:00:00-04:00"
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14162331155",
+      "longitude": 43.661512,
+      "latitude": -79.519814,
+      "appleMaps": "https://maps.apple.com/?address=270%20The%20Kingsway,%20Etobicoke%20ON%20M9A%203T7,%20Canada&auid=9078244046820314725&ll=43.661512,-79.519814&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/QwuKm28dVa8n1e5U7",
+      "lastUpdate": "2024-04-30T00:00:00-04:00"
     },
     {
       "name": "Dundas & Prince Michael (Oakville)",
