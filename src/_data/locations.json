@@ -197,20 +197,6 @@
       "lastUpdate": "2024-03-20T00:00:00-04:00"
     },
     {
-      "name": "Galleria Shopping Centre",
-      "location": "1245 Dupont St,\nToronto, ON M6H 2A6",
-      "type": "rexall",
-      "testType": "flowflex",
-      "expiry": "2024-09-30T00:00:00-04:00",
-      "instructions": "At the cash.",
-      "phone": "+14165370805",
-      "longitude": 43.667411,
-      "latitude": -79.441560,
-      "appleMaps": "https://maps.apple.com/?address=1245%20Dupont%20St,%20Toronto%20ON%20M6H%202A6,%20Canada&auid=13178898830969658214&ll=43.667411,-79.441560&lsp=9902&q=Rexall",
-      "googleMaps": "https://maps.app.goo.gl/6wzSTPsS49nFQChWA",
-      "lastUpdate": "2024-03-18T00:00:00-04:00"
-    },
-    {
       "name": "Hazelton Lanes Shopping Centre",
       "location": "87 Avenue Rd,\nToronto, ON M5R 3R9",
       "type": "rexall",
@@ -308,6 +294,48 @@
       "appleMaps": "https://maps.apple.com/?address=2330%20Kennedy%20Rd,%20Scarborough%20ON%20M1T%200A2,%20Canada&auid=5004843486167146758&ll=43.783882,-79.289576&lsp=9902&q=Shoppers%20Drug%20Mart",
       "googleMaps": "https://maps.app.goo.gl/yyRrZKAn1Gjcbbah7",
       "lastUpdate": "2024-03-28T00:00:00-04:00"
+    },
+    {
+      "name": "Agincourt Mall (Scarborough)",
+      "location": "2330 Kennedy Rd,\nToronto, ON M1T 3H1",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-03-30T00:00:00-04:00",
+      "instructions": "At the cash, ask if they have COVID tests.",
+      "phone": "+14162993532",
+      "longitude": 43.783882,
+      "latitude": -79.289576,
+      "appleMaps": "https://maps.apple.com/?address=2330%20Kennedy%20Rd,%20Scarborough%20ON%20M1T%200A2,%20Canada&auid=5004843486167146758&ll=43.783882,-79.289576&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/yyRrZKAn1Gjcbbah7",
+      "lastUpdate": "2024-03-28T00:00:00-04:00"
+    },
+    {
+      "name": "Dundas & Prince Michael (Oakville)",
+      "location": "2525 Prince Michael Dr,\nOakville, ON L6H 0E9",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+19052573938",
+      "longitude": 43.498519,
+      "latitude": -79.707147,
+      "appleMaps": "https://maps.apple.com/?address=2525%20Prince%20Michael%20Dr,%20Oakville%20ON%20L6H%200E9,%20Canada&auid=5817652672878853992&ll=43.498519,-79.707147&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/EwRVG1CPrZFVV1vx9",
+      "lastUpdate": "2024-04-30T00:00:00-04:00"
+    },
+    {
+      "name": "Oakville Place (Oakville)",
+      "location": "240 Leighland Ave,\nOakville, ON L6H 3H6",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the pharmacy.",
+      "phone": "+19058423730",
+      "longitude": 43.461611,
+      "latitude": -79.686878,
+      "appleMaps": "https://maps.apple.com/?address=240%20Leighland%20Ave,%20Oakville%20ON%20L6H%201B5,%20Canada&auid=15830763843236361158&ll=43.461611,-79.686878&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/cmEHd7pCAZsEKcjYA",
+      "lastUpdate": "2024-04-30T00:00:00-04:00"
     }
   ],
 
@@ -377,6 +405,17 @@
         "appleMaps": "https://maps.apple.com/?address=888%20Lawrence%20Ave%20E,%20Toronto%20ON%20M3C%201P6,%20Canada&auid=5503315607566536777&ll=43.736628,-79.347479&lsp=9902&q=Public%20Library",
         "googleMaps": "https://maps.app.goo.gl/AZfB6T8sJZFrpkSW6",
         "lastUpdate": "2024-03-21T00:00:00-04:00"
+    },
+    {
+        "name": "Galleria Shopping Centre",
+        "location": "1245 Dupont St,\nToronto, ON M6H 2A6",
+        "type": "rexall",
+        "phone": "+14165370805",
+        "longitude": 43.667411,
+        "latitude": -79.441560,
+        "appleMaps": "https://maps.apple.com/?address=1245%20Dupont%20St,%20Toronto%20ON%20M6H%202A6,%20Canada&auid=13178898830969658214&ll=43.667411,-79.441560&lsp=9902&q=Rexall",
+        "googleMaps": "https://maps.app.goo.gl/6wzSTPsS49nFQChWA",
+        "lastUpdate": "2024-04-23T00:00:00-04:00"
     }
   ]
 }
