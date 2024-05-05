@@ -29,20 +29,6 @@
         "lastUpdate": "2024-03-16T00:00:00-04:00"
     },
     {
-        "name": "College & Spadina",
-        "location": "474 Spadina Ave.,\nToronto, ON M5T 2G8",
-        "type": "rexall",
-        "testType": "flowflex",
-        "expiry": "2024-09-30T00:00:00-04:00",
-        "instructions": "At the cash, on top of the counter.",
-        "phone": "+14164131060",
-        "longitude": 43.657808,
-        "latitude": -79.40031,
-        "appleMaps": "https://maps.apple.com/?address=474%20Spadina%20Ave,%20Toronto%20ON%20M5T%202G8,%20Canada&auid=12482297535668845204&ll=43.657701,-79.400381&lsp=9902&q=Rexall",
-        "googleMaps": "https://maps.app.goo.gl/tDH7fanhnQyisKMQ7",
-        "lastUpdate": "2024-03-16T00:00:00-04:00"
-    },
-    {
         "name": "Dundas & Spadina",
         "location": "285 Spadina Ave.,\nToronto, ON M5T 2E6",
         "type": "rexall",
@@ -416,6 +402,17 @@
         "appleMaps": "https://maps.apple.com/?address=1245%20Dupont%20St,%20Toronto%20ON%20M6H%202A6,%20Canada&auid=13178898830969658214&ll=43.667411,-79.441560&lsp=9902&q=Rexall",
         "googleMaps": "https://maps.app.goo.gl/6wzSTPsS49nFQChWA",
         "lastUpdate": "2024-04-23T00:00:00-04:00"
+    },
+    {
+      "name": "College & Spadina",
+      "location": "474 Spadina Ave.,\nToronto, ON M5T 2G8",
+      "type": "rexall",
+      "phone": "+14164131060",
+      "longitude": 43.657808,
+      "latitude": -79.40031,
+      "appleMaps": "https://maps.apple.com/?address=474%20Spadina%20Ave,%20Toronto%20ON%20M5T%202G8,%20Canada&auid=12482297535668845204&ll=43.657701,-79.400381&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/tDH7fanhnQyisKMQ7",
+      "lastUpdate": "2024-03-16T00:00:00-04:00"
     }
   ]
 }
