@@ -212,20 +212,6 @@
       "lastUpdate": "2024-03-22T00:00:00-04:00"
     },
     {
-      "name": "Cloverdale Mall Toronto",
-      "location": "250 The East Mall,\nEtobicoke, ON M9B 3Y8",
-      "type": "rexall",
-      "testType": "flowflex",
-      "expiry": "2024-09-30T00:00:00-04:00",
-      "instructions": "At the cash, stacked on the counter. Can ask for two boxes.",
-      "phone": "+14162393512",
-      "longitude": 43.631987,
-      "latitude": -79.555207,
-      "appleMaps": "https://maps.apple.com/?address=250%20The%20East%20Mall,%20Etobicoke%20ON%20M9B%203Y8,%20Canada&auid=18138658338211867379&ll=43.631987,-79.555207&lsp=9902&q=Rexall",
-      "googleMaps": "https://maps.app.goo.gl/ckJnQQVbkBgp7YcW7",
-      "lastUpdate": "2024-03-23T00:00:00-04:00"
-    },
-    {
       "name": "Dundas & Gladstone",
       "location": "1421 Dundas St W,\nToronto, ON M6J 1Y4",
       "type": "rexall",
@@ -282,20 +268,6 @@
       "lastUpdate": "2024-03-28T00:00:00-04:00"
     },
     {
-      "name": "Humbertown Shopping Centre (Etobicoke)",
-      "location": "270 The Kingsway,\nEtobicoke, ON M9A 3T7",
-      "type": "shoppers",
-      "testType": "flowflex",
-      "expiry": "2024-09-30T00:00:00-04:00",
-      "instructions": "At the cash.",
-      "phone": "+14162331155",
-      "longitude": 43.661512,
-      "latitude": -79.519814,
-      "appleMaps": "https://maps.apple.com/?address=270%20The%20Kingsway,%20Etobicoke%20ON%20M9A%203T7,%20Canada&auid=9078244046820314725&ll=43.661512,-79.519814&lsp=9902&q=Shoppers%20Drug%20Mart",
-      "googleMaps": "https://maps.app.goo.gl/QwuKm28dVa8n1e5U7",
-      "lastUpdate": "2024-04-30T00:00:00-04:00"
-    },
-    {
       "name": "Dundas & Prince Michael (Oakville)",
       "location": "2525 Prince Michael Dr,\nOakville, ON L6H 0E9",
       "type": "shoppers",
@@ -322,6 +294,62 @@
       "appleMaps": "https://maps.apple.com/?address=240%20Leighland%20Ave,%20Oakville%20ON%20L6H%201B5,%20Canada&auid=15830763843236361158&ll=43.461611,-79.686878&lsp=9902&q=Shoppers%20Drug%20Mart",
       "googleMaps": "https://maps.app.goo.gl/cmEHd7pCAZsEKcjYA",
       "lastUpdate": "2024-04-30T00:00:00-04:00"
+    },
+    {
+      "name": "Cosmo Pharmacy",
+      "location": "3101 Bloor St W,\nEtobicoke, ON M8X 2W2",
+      "type": "independent",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "Request from the pharmacist.",
+      "phone": "+14162314446",
+      "longitude": 43.646216,
+      "latitude": -79.515307,
+      "appleMaps": "https://maps.apple.com/?address=3101%20Bloor%20St%20W,%20Etobicoke%20ON%20M8X%202W2,%20Canada&auid=17706317969603734674&ll=43.646216,-79.515307&lsp=9902&q=Cosmo%20Pharmacy",
+      "googleMaps": "https://maps.app.goo.gl/non8eg5QnjKGRjbaA",
+      "lastUpdate": "2024-05-09T00:00:00-04:00"
+    },
+    {
+      "name": "Jane & Runnymede",
+      "location": "3446 Dundas St W,\nToronto, ON M6S 2S1",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14167668131",
+      "longitude": 43.666081,
+      "latitude": -79.486449,
+      "appleMaps": "https://maps.apple.com/?address=3446%20Dundas%20St%20W,%20York%20ON%20M6S%202S1,%20Canada&auid=11051850814376789354&ll=43.666081,-79.486449&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/2mcdsn3zcNmn6PAf8",
+      "lastUpdate": "2024-05-09T00:00:00-04:00"
+    },
+    {
+      "name": "Keele & St. Clair",
+      "location": "620 Keele St,\nToronto, ON M6N 3E2",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14167663095",
+      "longitude": 43.671859,
+      "latitude": -79.467807,
+      "appleMaps": "https://maps.apple.com/?address=620%20Keele%20St,%20Toronto%20ON%20M6N%203E2,%20Canada&auid=13961074490184672657&ll=43.671859,-79.467807&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/Rkcp8RZXqjieHakGA",
+      "lastUpdate": "2024-05-09T00:00:00-04:00"
+    },
+    {
+      "name": "Yonge & Melrose",
+      "location": "3402 Yonge St,\nToronto, ON M4N 2M9",
+      "type": "rexall",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14165440746",
+      "longitude": 43.733015,
+      "latitude": -79.404556,
+      "appleMaps": "https://maps.apple.com/?address=3402%20Yonge%20St,%20Toronto%20ON%20M5M%201Y5,%20Canada&auid=11408028030980190512&ll=43.733015,-79.404556&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/CUTVt4FfFrvHFqKd6",
+      "lastUpdate": "2024-05-11T00:00:00-04:00"
     }
   ],
 
@@ -413,6 +441,28 @@
       "appleMaps": "https://maps.apple.com/?address=474%20Spadina%20Ave,%20Toronto%20ON%20M5T%202G8,%20Canada&auid=12482297535668845204&ll=43.657701,-79.400381&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/tDH7fanhnQyisKMQ7",
       "lastUpdate": "2024-05-05T00:00:00-04:00"
+    },
+    {
+      "name": "Humbertown Shopping Centre (Etobicoke)",
+      "location": "270 The Kingsway,\nEtobicoke, ON M9A 3T7",
+      "type": "shoppers",
+      "phone": "+14162331155",
+      "longitude": 43.661512,
+      "latitude": -79.519814,
+      "appleMaps": "https://maps.apple.com/?address=270%20The%20Kingsway,%20Etobicoke%20ON%20M9A%203T7,%20Canada&auid=9078244046820314725&ll=43.661512,-79.519814&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/QwuKm28dVa8n1e5U7",
+      "lastUpdate": "2024-05-09T00:00:00-04:00"
+    },
+    {
+      "name": "Cloverdale Mall Toronto",
+      "location": "250 The East Mall,\nEtobicoke, ON M9B 3Y8",
+      "type": "rexall",
+      "phone": "+14162393512",
+      "longitude": 43.631987,
+      "latitude": -79.555207,
+      "appleMaps": "https://maps.apple.com/?address=250%20The%20East%20Mall,%20Etobicoke%20ON%20M9B%203Y8,%20Canada&auid=18138658338211867379&ll=43.631987,-79.555207&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/ckJnQQVbkBgp7YcW7",
+      "lastUpdate": "2024-05-28T00:00:00-04:00"
     }
   ]
 }
