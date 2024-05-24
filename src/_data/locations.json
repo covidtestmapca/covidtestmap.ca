@@ -146,13 +146,13 @@
       "type": "rexall",
       "testType": "flowflex",
       "expiry": "2024-09-30T00:00:00-04:00",
-      "instructions": "At the pharmacy.",
+      "instructions": "At the cash.",
       "phone": "+14164844540",
       "longitude": 43.707105,
       "latitude": -79.398912,
       "appleMaps": "https://maps.apple.com/?address=2300%20Yonge%20St,%20Toronto%20ON%20M4P%201E4,%20Canada&auid=3273111999624993535&ll=43.707105,-79.398912&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/D61KwXtRkrnuM1CR8",
-      "lastUpdate": "2024-03-20T00:00:00-04:00"
+      "lastUpdate": "2024-05-20T00:00:00-04:00"
     },
     {
       "name": "King & Tecumseh",
@@ -377,7 +377,22 @@
       "appleMaps": "https://maps.apple.com/?address=935%20Eglinton%20Ave%20W,%20York%20ON%20M6C%202C3,%20Canada&auid=1226943624769170855&ll=43.700371,-79.427858&lsp=9902&q=Shoppers%20Drug%20Mart",
       "googleMaps": "https://maps.app.goo.gl/eFUjjcZ6AvXcPVhe8",
       "lastUpdate": "2024-05-21T00:00:00-04:00"
+    },
+    {
+      "name": "Avenue & Lawrence",
+      "location": "1500 Avenue Rd,\nToronto, ON M5M 3X2",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the pharmacy",
+      "phone": "+14167816146",
+      "longitude": 43.722390,
+      "latitude": -79.415875,
+      "appleMaps": "https://maps.apple.com/?address=1500%20Avenue%20Rd,%20North%20York%20ON%20M5N%202J1,%20Canada&auid=13757681190250306901&ll=43.722390,-79.415875&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/Q3U6sbuUaTmeM4fd6",
+      "lastUpdate": "2024-05-20T00:00:00-04:00"
     }
+
   ],
 
   "withoutTests": [
