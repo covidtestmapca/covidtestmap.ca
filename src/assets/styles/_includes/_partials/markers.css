@@ -70,6 +70,10 @@
   background-color: var(--marker-header-remedysrx-background-color);
 }
 
+.inner-marker > header.pharmasave {
+  background-color: var(--marker-header-pharmasave-background-color);
+}
+
 .inner-marker > header.independent {
   background-color: var(--marker-header-background-color);
 }
@@ -121,6 +125,12 @@
 
 .inner-marker > header.remedysrx::before {
   content: url('/assets/images/vendor/logo-remedysrx.svg');
+  position: relative;
+  top: 3px;
+}
+
+.inner-marker > header.pharmasave::before {
+  content: url('/assets/images/vendor/logo-pharmasave.svg');
   position: relative;
   top: 3px;
 }

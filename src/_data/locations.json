@@ -433,6 +433,34 @@
       "appleMaps": "https://maps.apple.com/?address=499%20College%20St,%20Toronto%20ON%20M6G%201A5,%20Canada&auid=8633130076890200664&ll=43.655926,-79.409746&lsp=9902&q=I.D.A",
       "googleMaps": "https://maps.app.goo.gl/u7d1aRJ75h2apLFU6",
       "lastUpdate": "2024-05-27T00:00:00-04:00"
+    },
+    {
+      "name": "Toronto East",
+      "location": "825 Coxwell Ave C114,\nEast York, ON M4C 3E7",
+      "type": "pharmasave",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "Inside Michael Garron Hospital",
+      "phone": "+14167781221",
+      "longitude": 43.689839,
+      "latitude": -79.325427,
+      "appleMaps": "https://maps.apple.com/?address=Michael%20Garron%20Hospital,%20C114-825%20Coxwell%20Ave,%20Toronto%20ON%20M4C%203E7,%20Canada&auid=1842797057514067282&ll=43.689839,-79.325427&lsp=9902&q=Pharmasave",
+      "googleMaps": "https://maps.app.goo.gl/6vew1ADXoKdKsAdq6",
+      "lastUpdate": "2024-05-31T00:00:00-04:00"
+    },
+    {
+      "name": "Danforth & Coxwell",
+      "location": "1630 Danforth Ave,\nToronto, ON M4C 1H6",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the pharmacy",
+      "phone": "+14164612453",
+      "longitude": 43.683901,
+      "latitude": -79.322189,
+      "appleMaps": "https://maps.apple.com/?address=1630%20Danforth%20Ave,%20Toronto%20ON%20M4C%201H6,%20Canada&auid=10445077981532879298&ll=43.683901,-79.322189&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/VcgBv3zbacak2GbG6",
+      "lastUpdate": "2024-05-31T00:00:00-04:00"
     }
   ],
 

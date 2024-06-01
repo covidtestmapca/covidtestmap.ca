@@ -18,6 +18,8 @@ export namespace LocationType {
         return '#6bb240';
       case LocationType.NoFrills:
         return '#6bb240';
+      case LocationType.Pharmasave:
+        return '#D41842';
       default:
         return '#000000';
     }
@@ -30,6 +32,7 @@ export enum LocationType {
   IDA = 'ida',
   Guardian = 'guardian',
   RemedysRX = 'remedysrx',
+  Pharmasave = 'pharmasave',
   Morellis = 'morellis',
   NoFrills = 'no-frills',
   Independent = 'independent'
