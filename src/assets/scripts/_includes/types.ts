@@ -10,6 +10,14 @@ export namespace LocationType {
         return '#38A69A';
       case LocationType.Shoppers:
         return '#D62025';
+      case LocationType.IDA:
+        return '#005e9e';
+      case LocationType.Guardian:
+        return '#00633d';
+      case LocationType.RemedysRX:
+        return '#6bb240';
+      case LocationType.NoFrills:
+        return '#6bb240';
       default:
         return '#000000';
     }
@@ -20,7 +28,10 @@ export enum LocationType {
   Rexall = 'rexall',
   Shoppers = 'shoppers',
   IDA = 'ida',
+  Guardian = 'guardian',
+  RemedysRX = 'remedysrx',
   Morellis = 'morellis',
+  NoFrills = 'no-frills',
   Independent = 'independent'
 }
 

@@ -55,7 +55,19 @@
 }
 
 .inner-marker > header.tpl {
-  background-color: var(--marker-tpl-background-color);
+  background-color: var(--marker-header-tpl-background-color);
+}
+
+.inner-marker > header.guardian {
+  background-color: var(--marker-header-guardian-background-color);
+}
+
+.inner-marker > header.ida {
+  background-color: var(--marker-header-ida-background-color);
+}
+
+.inner-marker > header.remedysrx {
+  background-color: var(--marker-header-remedysrx-background-color);
 }
 
 .inner-marker > header.independent {
@@ -91,6 +103,24 @@
 
 .inner-marker > header.no-frills::before {
   content: url('/assets/images/vendor/logo-no-frills.svg');
+  position: relative;
+  top: 3px;
+}
+
+.inner-marker > header.guardian::before {
+  content: url('/assets/images/vendor/logo-guardian.svg');
+  position: relative;
+  top: 3px;
+}
+
+.inner-marker > header.ida::before {
+  content: url('/assets/images/vendor/logo-ida.svg');
+  position: relative;
+  top: 3px;
+}
+
+.inner-marker > header.remedysrx::before {
+  content: url('/assets/images/vendor/logo-remedysrx.svg');
   position: relative;
   top: 3px;
 }
