@@ -461,6 +461,20 @@
       "appleMaps": "https://maps.apple.com/?address=110A-1440%20Bathurst%20St,%20Toronto%20ON%20M5R%203J3,%20Canada&auid=8313816403518112908&ll=43.682262,-79.418256&lsp=9902&q=Rx%20Crew%20Pharmacy",
       "googleMaps": "https://maps.app.goo.gl/7Z9u5gNXQYAD9vw87",
       "lastUpdate": "2024-05-31T00:00:00-04:00"
+    },
+    {
+      "name": "Jane & Major Mackenzie",
+      "location": "2943 Major MacKenzie Dr W,\nMaple, ON L6A 3N9",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "Counter in the front, where the lottery tickets are.",
+      "phone": "+19058329954",
+      "longitude": 43.848823,
+      "latitude": -79.534509,
+      "appleMaps": "https://maps.apple.com/?address=2943%20Major%20Mackenzie%20Dr%20W,%20Maple%20ON%20L6A%203N9,%20Canada&auid=10334377294398083282&ll=43.848823,-79.534509&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/S16vXzTwJxS6s9x69",
+      "lastUpdate": "2024-04-18T00:00:00-04:00"
     }
   ],
   "withoutTests": [
