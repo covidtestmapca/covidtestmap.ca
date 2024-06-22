@@ -58,6 +58,10 @@
   background-color: var(--marker-header-tpl-background-color);
 }
 
+.inner-marker > header.toronto {
+  background-color: var(--marker-header-toronto-background-color);
+}
+
 .inner-marker > header.guardian {
   background-color: var(--marker-header-guardian-background-color);
 }
@@ -103,6 +107,12 @@
   content: url('/assets/images/vendor/logo-tpl.svg');
   position: relative;
   top: 3px;
+}
+
+.inner-marker > header.toronto::before {
+  content: url('/assets/images/vendor/logo-toronto.svg');
+  position: relative;
+  top: -2px;
 }
 
 .inner-marker > header.no-frills::before {
