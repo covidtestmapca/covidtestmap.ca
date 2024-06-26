@@ -253,7 +253,7 @@
       "lastUpdate": "2024-03-28T00:00:00-04:00"
     },
     {
-      "name": "Dundas & Prince Michael (Oakville)",
+      "name": "Dundas & Prince Michael",
       "location": "2525 Prince Michael Dr,\nOakville, ON L6H 0E9",
       "type": "shoppers",
       "testType": "flowflex",
@@ -267,7 +267,7 @@
       "lastUpdate": "2024-04-30T00:00:00-04:00"
     },
     {
-      "name": "Oakville Place (Oakville)",
+      "name": "Oakville Place",
       "location": "240 Leighland Ave,\nOakville, ON L6H 3H6",
       "type": "shoppers",
       "testType": "flowflex",
@@ -503,6 +503,34 @@
       "appleMaps": "https://maps.apple.com/?address=200-200%20Wellington%20St%20W,%20Toronto%20ON%20M5V%203C7,%20Canada&auid=9410157238539155295&ll=43.645875,-79.387829&lsp=9902&q=Rexall",
       "googleMaps": "https://maps.app.goo.gl/N7vZz1Lgzna7nhXL7",
       "lastUpdate": "2024-06-21T00:00:00-04:00"
+    },
+    {
+      "name": "Galleria Shopping Centre",
+      "location": "1245 Dupont St,\nToronto, ON M6H 2A6",
+      "type": "rexall",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the cash.",
+      "phone": "+14165370805",
+      "longitude": 43.667411,
+      "latitude": -79.441560,
+      "appleMaps": "https://maps.apple.com/?address=1245%20Dupont%20St,%20Toronto%20ON%20M6H%202A6,%20Canada&auid=13178898830969658214&ll=43.667411,-79.441560&lsp=9902&q=Rexall",
+      "googleMaps": "https://maps.app.goo.gl/6wzSTPsS49nFQChWA",
+      "lastUpdate": "2024-06-23T00:00:00-04:00"
+    },
+    {
+      "name": "Upper Oakville S.C.",
+      "location": "1011 Upper Middle Rd E Unit D5,\nOakville, ON L6H 4L3",
+      "type": "shoppers",
+      "testType": "flowflex",
+      "expiry": "2024-09-30T00:00:00-04:00",
+      "instructions": "At the pharmacy.",
+      "phone": "+19058423934",
+      "longitude": 43.482017,
+      "latitude": -79.694921,
+      "appleMaps": "https://maps.apple.com/?address=D5-1011%20Upper%20Middle%20Rd%20E,%20Oakville%20ON%20L6H%204L3,%20Canada&auid=11368162314093580103&ll=43.482017,-79.694921&lsp=9902&q=Shoppers%20Drug%20Mart",
+      "googleMaps": "https://maps.app.goo.gl/wAk3z6jBw8GdSfmq8",
+      "lastUpdate": "2024-06-22T00:00:00-04:00"
     }
   ],
   "withoutTests": [
@@ -571,17 +599,6 @@
       "appleMaps": "https://maps.apple.com/?address=888%20Lawrence%20Ave%20E,%20Toronto%20ON%20M3C%201P6,%20Canada&auid=5503315607566536777&ll=43.736628,-79.347479&lsp=9902&q=Public%20Library",
       "googleMaps": "https://maps.app.goo.gl/AZfB6T8sJZFrpkSW6",
       "lastUpdate": "2024-03-21T00:00:00-04:00"
-    },
-    {
-      "name": "Galleria Shopping Centre",
-      "location": "1245 Dupont St,\nToronto, ON M6H 2A6",
-      "type": "rexall",
-      "phone": "+14165370805",
-      "longitude": 43.667411,
-      "latitude": -79.441560,
-      "appleMaps": "https://maps.apple.com/?address=1245%20Dupont%20St,%20Toronto%20ON%20M6H%202A6,%20Canada&auid=13178898830969658214&ll=43.667411,-79.441560&lsp=9902&q=Rexall",
-      "googleMaps": "https://maps.app.goo.gl/6wzSTPsS49nFQChWA",
-      "lastUpdate": "2024-04-23T00:00:00-04:00"
     },
     {
       "name": "College & Spadina",
